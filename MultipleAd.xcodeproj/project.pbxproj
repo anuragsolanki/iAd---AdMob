@@ -1,0 +1,279 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7506F93915183F9100D64CBC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7506F93815183F9100D64CBC /* UIKit.framework */; };
+		7506F93B15183F9100D64CBC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7506F93A15183F9100D64CBC /* Foundation.framework */; };
+		7506F93D15183F9100D64CBC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7506F93C15183F9100D64CBC /* CoreGraphics.framework */; };
+		7506F94315183F9100D64CBC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7506F94115183F9100D64CBC /* InfoPlist.strings */; };
+		7506F94515183F9100D64CBC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7506F94415183F9100D64CBC /* main.m */; };
+		7506F94915183F9100D64CBC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7506F94815183F9100D64CBC /* AppDelegate.m */; };
+		7506F94C15183F9100D64CBC /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7506F94A15183F9100D64CBC /* MainStoryboard.storyboard */; };
+		7506F94F15183F9100D64CBC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7506F94E15183F9100D64CBC /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7506F93415183F9100D64CBC /* MultipleAd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultipleAd.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7506F93815183F9100D64CBC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7506F93A15183F9100D64CBC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7506F93C15183F9100D64CBC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7506F94015183F9100D64CBC /* MultipleAd-Info.plist */ = {isa = PBXFileReference; path = "MultipleAd-Info.plist"; sourceTree = "<group>"; };
+		7506F94215183F9100D64CBC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7506F94415183F9100D64CBC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7506F94615183F9100D64CBC /* MultipleAd-Prefix.pch */ = {isa = PBXFileReference; path = "MultipleAd-Prefix.pch"; sourceTree = "<group>"; };
+		7506F94715183F9100D64CBC /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		7506F94815183F9100D64CBC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7506F94B15183F9100D64CBC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		7506F94D15183F9100D64CBC /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		7506F94E15183F9100D64CBC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7506F93115183F9100D64CBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7506F93915183F9100D64CBC /* UIKit.framework in Frameworks */,
+				7506F93B15183F9100D64CBC /* Foundation.framework in Frameworks */,
+				7506F93D15183F9100D64CBC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7506F92915183F9100D64CBC = {
+			isa = PBXGroup;
+			children = (
+				7506F93E15183F9100D64CBC /* MultipleAd */,
+				7506F93715183F9100D64CBC /* Frameworks */,
+				7506F93515183F9100D64CBC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7506F93515183F9100D64CBC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7506F93415183F9100D64CBC /* MultipleAd.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7506F93715183F9100D64CBC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7506F93815183F9100D64CBC /* UIKit.framework */,
+				7506F93A15183F9100D64CBC /* Foundation.framework */,
+				7506F93C15183F9100D64CBC /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7506F93E15183F9100D64CBC /* MultipleAd */ = {
+			isa = PBXGroup;
+			children = (
+				7506F94715183F9100D64CBC /* AppDelegate.h */,
+				7506F94815183F9100D64CBC /* AppDelegate.m */,
+				7506F94A15183F9100D64CBC /* MainStoryboard.storyboard */,
+				7506F94D15183F9100D64CBC /* ViewController.h */,
+				7506F94E15183F9100D64CBC /* ViewController.m */,
+				7506F93F15183F9100D64CBC /* Supporting Files */,
+			);
+			path = MultipleAd;
+			sourceTree = "<group>";
+		};
+		7506F93F15183F9100D64CBC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7506F94015183F9100D64CBC /* MultipleAd-Info.plist */,
+				7506F94115183F9100D64CBC /* InfoPlist.strings */,
+				7506F94415183F9100D64CBC /* main.m */,
+				7506F94615183F9100D64CBC /* MultipleAd-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7506F93315183F9100D64CBC /* MultipleAd */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7506F95215183F9100D64CBC /* Build configuration list for PBXNativeTarget "MultipleAd" */;
+			buildPhases = (
+				7506F93015183F9100D64CBC /* Sources */,
+				7506F93115183F9100D64CBC /* Frameworks */,
+				7506F93215183F9100D64CBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MultipleAd;
+			productName = MultipleAd;
+			productReference = 7506F93415183F9100D64CBC /* MultipleAd.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7506F92B15183F9100D64CBC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 7506F92E15183F9100D64CBC /* Build configuration list for PBXProject "MultipleAd" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7506F92915183F9100D64CBC;
+			productRefGroup = 7506F93515183F9100D64CBC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7506F93315183F9100D64CBC /* MultipleAd */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7506F93215183F9100D64CBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7506F94315183F9100D64CBC /* InfoPlist.strings in Resources */,
+				7506F94C15183F9100D64CBC /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7506F93015183F9100D64CBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7506F94515183F9100D64CBC /* main.m in Sources */,
+				7506F94915183F9100D64CBC /* AppDelegate.m in Sources */,
+				7506F94F15183F9100D64CBC /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7506F94115183F9100D64CBC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7506F94215183F9100D64CBC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7506F94A15183F9100D64CBC /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7506F94B15183F9100D64CBC /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7506F95015183F9100D64CBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7506F95115183F9100D64CBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7506F95315183F9100D64CBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MultipleAd/MultipleAd-Prefix.pch";
+				INFOPLIST_FILE = "MultipleAd/MultipleAd-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7506F95415183F9100D64CBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MultipleAd/MultipleAd-Prefix.pch";
+				INFOPLIST_FILE = "MultipleAd/MultipleAd-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7506F92E15183F9100D64CBC /* Build configuration list for PBXProject "MultipleAd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7506F95015183F9100D64CBC /* Debug */,
+				7506F95115183F9100D64CBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7506F95215183F9100D64CBC /* Build configuration list for PBXNativeTarget "MultipleAd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7506F95315183F9100D64CBC /* Debug */,
+				7506F95415183F9100D64CBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7506F92B15183F9100D64CBC /* Project object */;
+}
