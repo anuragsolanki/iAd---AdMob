@@ -15,6 +15,12 @@
 		7506F94915183F9100D64CBC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7506F94815183F9100D64CBC /* AppDelegate.m */; };
 		7506F94C15183F9100D64CBC /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7506F94A15183F9100D64CBC /* MainStoryboard.storyboard */; };
 		7506F94F15183F9100D64CBC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7506F94E15183F9100D64CBC /* ViewController.m */; };
+		7506F95615183FAE00D64CBC /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7506F95515183FAE00D64CBC /* AudioToolbox.framework */; };
+		7506F95815183FB500D64CBC /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7506F95715183FB500D64CBC /* MessageUI.framework */; };
+		7506F95A15183FBE00D64CBC /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7506F95915183FBE00D64CBC /* SystemConfiguration.framework */; };
+		7506F95C15183FC200D64CBC /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7506F95B15183FC200D64CBC /* iAd.framework */; };
+		7506F96515183FF600D64CBC /* libGoogleAdMobAds.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7506F96415183FF600D64CBC /* libGoogleAdMobAds.a */; };
+		7506F96B151840FB00D64CBC /* Readme in Resources */ = {isa = PBXBuildFile; fileRef = 7506F96A151840FB00D64CBC /* Readme */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +28,27 @@
 		7506F93815183F9100D64CBC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		7506F93A15183F9100D64CBC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7506F93C15183F9100D64CBC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		7506F94015183F9100D64CBC /* MultipleAd-Info.plist */ = {isa = PBXFileReference; path = "MultipleAd-Info.plist"; sourceTree = "<group>"; };
+		7506F94015183F9100D64CBC /* MultipleAd-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MultipleAd-Info.plist"; sourceTree = "<group>"; };
 		7506F94215183F9100D64CBC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7506F94415183F9100D64CBC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		7506F94615183F9100D64CBC /* MultipleAd-Prefix.pch */ = {isa = PBXFileReference; path = "MultipleAd-Prefix.pch"; sourceTree = "<group>"; };
-		7506F94715183F9100D64CBC /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		7506F94615183F9100D64CBC /* MultipleAd-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MultipleAd-Prefix.pch"; sourceTree = "<group>"; };
+		7506F94715183F9100D64CBC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7506F94815183F9100D64CBC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		7506F94B15183F9100D64CBC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		7506F94D15183F9100D64CBC /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		7506F94D15183F9100D64CBC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		7506F94E15183F9100D64CBC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7506F95515183FAE00D64CBC /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		7506F95715183FB500D64CBC /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		7506F95915183FBE00D64CBC /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		7506F95B15183FC200D64CBC /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		7506F95E15183FF600D64CBC /* GADBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADBannerView.h; sourceTree = "<group>"; };
+		7506F95F15183FF600D64CBC /* GADBannerViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADBannerViewDelegate.h; sourceTree = "<group>"; };
+		7506F96015183FF600D64CBC /* GADInterstitial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADInterstitial.h; sourceTree = "<group>"; };
+		7506F96115183FF600D64CBC /* GADInterstitialDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADInterstitialDelegate.h; sourceTree = "<group>"; };
+		7506F96215183FF600D64CBC /* GADRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADRequest.h; sourceTree = "<group>"; };
+		7506F96315183FF600D64CBC /* GADRequestError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADRequestError.h; sourceTree = "<group>"; };
+		7506F96415183FF600D64CBC /* libGoogleAdMobAds.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGoogleAdMobAds.a; sourceTree = "<group>"; };
+		7506F96A151840FB00D64CBC /* Readme */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Readme; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,9 +56,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7506F95C15183FC200D64CBC /* iAd.framework in Frameworks */,
+				7506F95A15183FBE00D64CBC /* SystemConfiguration.framework in Frameworks */,
+				7506F95815183FB500D64CBC /* MessageUI.framework in Frameworks */,
+				7506F95615183FAE00D64CBC /* AudioToolbox.framework in Frameworks */,
 				7506F93915183F9100D64CBC /* UIKit.framework in Frameworks */,
 				7506F93B15183F9100D64CBC /* Foundation.framework in Frameworks */,
 				7506F93D15183F9100D64CBC /* CoreGraphics.framework in Frameworks */,
+				7506F96515183FF600D64CBC /* libGoogleAdMobAds.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +90,10 @@
 		7506F93715183F9100D64CBC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7506F95B15183FC200D64CBC /* iAd.framework */,
+				7506F95915183FBE00D64CBC /* SystemConfiguration.framework */,
+				7506F95715183FB500D64CBC /* MessageUI.framework */,
+				7506F95515183FAE00D64CBC /* AudioToolbox.framework */,
 				7506F93815183F9100D64CBC /* UIKit.framework */,
 				7506F93A15183F9100D64CBC /* Foundation.framework */,
 				7506F93C15183F9100D64CBC /* CoreGraphics.framework */,
@@ -77,12 +104,14 @@
 		7506F93E15183F9100D64CBC /* MultipleAd */ = {
 			isa = PBXGroup;
 			children = (
+				7506F95D15183FF600D64CBC /* AdMob */,
 				7506F94715183F9100D64CBC /* AppDelegate.h */,
 				7506F94815183F9100D64CBC /* AppDelegate.m */,
 				7506F94A15183F9100D64CBC /* MainStoryboard.storyboard */,
 				7506F94D15183F9100D64CBC /* ViewController.h */,
 				7506F94E15183F9100D64CBC /* ViewController.m */,
 				7506F93F15183F9100D64CBC /* Supporting Files */,
+				7506F96A151840FB00D64CBC /* Readme */,
 			);
 			path = MultipleAd;
 			sourceTree = "<group>";
@@ -96,6 +125,20 @@
 				7506F94615183F9100D64CBC /* MultipleAd-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7506F95D15183FF600D64CBC /* AdMob */ = {
+			isa = PBXGroup;
+			children = (
+				7506F95E15183FF600D64CBC /* GADBannerView.h */,
+				7506F95F15183FF600D64CBC /* GADBannerViewDelegate.h */,
+				7506F96015183FF600D64CBC /* GADInterstitial.h */,
+				7506F96115183FF600D64CBC /* GADInterstitialDelegate.h */,
+				7506F96215183FF600D64CBC /* GADRequest.h */,
+				7506F96315183FF600D64CBC /* GADRequestError.h */,
+				7506F96415183FF600D64CBC /* libGoogleAdMobAds.a */,
+			);
+			path = AdMob;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,6 +193,7 @@
 			files = (
 				7506F94315183F9100D64CBC /* InfoPlist.strings in Resources */,
 				7506F94C15183F9100D64CBC /* MainStoryboard.storyboard in Resources */,
+				7506F96B151840FB00D64CBC /* Readme in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,6 +281,11 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MultipleAd/MultipleAd-Prefix.pch";
 				INFOPLIST_FILE = "MultipleAd/MultipleAd-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/MultipleAd/AdMob\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -248,6 +297,11 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MultipleAd/MultipleAd-Prefix.pch";
 				INFOPLIST_FILE = "MultipleAd/MultipleAd-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/MultipleAd/AdMob\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -272,6 +326,7 @@
 				7506F95415183F9100D64CBC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

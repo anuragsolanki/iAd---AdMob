@@ -1,0 +1,3 @@
+A sample iOS application to demonstrate multiple advertisement inclusion in a single iOS application.
+
+This app displays iAd wherever possible and if iAd is not available then it uses AdMob to serve ads.

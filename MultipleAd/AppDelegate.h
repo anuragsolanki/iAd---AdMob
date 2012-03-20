@@ -7,8 +7,18 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <iAd/iAd.h>
+#import "GADBannerView.h"
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+
+@protocol BannerViewContainer <NSObject>
+
+- (void)showBannerView:(ADBannerView *)bannerView animated:(BOOL)animated;
+- (void)hideBannerView:(ADBannerView *)bannerView animated:(BOOL)animated;
+
+@end
+
+@interface AppDelegate : UIResponder <UIApplicationDelegate, UINavigationControllerDelegate, GADBannerViewDelegate, ADBannerViewDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 
